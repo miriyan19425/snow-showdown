@@ -1,8 +1,10 @@
+import styles from './Snow.module.css';
+
 function Snow(){
     return (
-        <div className="snow">
+        <div className={styles.snow}>
           <h2>&#10053;Your Snowman&#10053;</h2>
-          <ul className="snow-list"></ul>
+          <ul className={styles.snowList}></ul>
         </div>
     );
 }
