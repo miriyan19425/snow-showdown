@@ -1,8 +1,10 @@
+import styles from './Snowball.module.css';
+
 function Snowball(){
     return (
-        <div className="snowball">
+        <div className={styles.snowball}>
           <h2>&#10053;Snowman Preview&#10053;</h2>
-          <ul className="snowman-preview"></ul>
+          <ul className={styles.snowmanPreview}></ul>
         </div>
     );
 }
