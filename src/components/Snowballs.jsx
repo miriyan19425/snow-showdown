@@ -1,9 +1,10 @@
 import Snowball from "./Snowball";
 import Snow from "./Snow";
+import styles from './Snowballs.module.css';
 
 function Snowballs(){
     return (
-        <div class="snowballs-container">
+        <div className={styles.snowballsContainer}>
            <Snowball />
            <Snow />
         </div>
