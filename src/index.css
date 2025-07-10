@@ -26,15 +26,7 @@
   width: 10rem;
   height: 1.6rem;
 }
-.snowballs-container{
-align-items: center;
-  gap: 10vh;
-  display: flex;
-  flex-direction: column;
-  margin-right: 50px;
-  margin-top: -20px;
-}
-
+ 
 ul {
   list-style-type: none;
   margin: 0;
