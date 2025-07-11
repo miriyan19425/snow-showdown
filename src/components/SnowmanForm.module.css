@@ -1,5 +1,5 @@
 .snowmanContainer {
-  background-image: url("./assets/snowman.png");
+  background-image: url("../assets/snowman.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
