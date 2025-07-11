@@ -1,7 +1,9 @@
+import styles from './SnowmanForm.module.css';
+
 function SnowmanForm(){
     return (
-        <div className="snowman-container">
-            <form className="snowman">
+        <div className={styles.snowmanContainer}>
+            <form className={styles.snowman}>
                 <input type="text" id="snowman-name" placeholder="Snowman Name" />
                 <input type="number" id="snowman-height" placeholder="Height (in centimeters)" />
                 <input type="text" id="location" placeholder="Location" />
@@ -13,7 +15,7 @@ function SnowmanForm(){
                     <option value="Branches for Arms">Branches for Arms</option>
                     <option value="Button Eyes">Button Eyes</option>
                 </select>
-                <button type="submit" class="add-btn">Add</button>
+                <button type="submit" className="add-btn">Add</button>
             </form>
         </div>
     );
