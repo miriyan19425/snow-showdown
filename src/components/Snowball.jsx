@@ -21,7 +21,7 @@ function Snowball({snowman}){
                   <p>Attribute: {snowman.attribute}</p>
                 </article>
                 <div className="btn-container">
-                  <button>Edit</button>
+                  <button onClick={onEdit}>Edit</button>
                   <button>Next</button>
                 </div>
               </li> 
