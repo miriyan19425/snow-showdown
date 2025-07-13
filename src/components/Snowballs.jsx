@@ -5,7 +5,7 @@ import styles from './Snowballs.module.css';
 function Snowballs({snowman}){
     return (
         <div className={styles.snowballsContainer}>
-           <Snowball snowman={snowman} />
+           <Snowball snowman={snowman} onEdit={handleEdit} />
            <Snow />
         </div>
     );
