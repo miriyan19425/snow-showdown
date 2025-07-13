@@ -5,6 +5,7 @@ import Snowballs from "./Snowballs";
 function Main(){
 
     const [snowmanData, setSnowmanData] = useState({});
+    const [dataToEdit, setDataToEdit] = useState({});
 
     function getSnowmanData(d){
         setSnowmanData(d);
