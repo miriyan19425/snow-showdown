@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import styles from './SnowmanForm.module.css';
 
 function SnowmanForm({addSnowman}){
@@ -7,6 +7,16 @@ function SnowmanForm({addSnowman}){
     const [location, setLocation] = useState('');
     const [creator, setCreator] = useState('');
     const [attribute, setAttribute] = useState(undefined);
+
+    useEffect(() => {
+        if (snowmanEdit) {
+            setName(snowmanEdit.name);
+            setHeight(snowmanEdit.height);
+            setLocation(snowmanEdit.location);
+            setCreator(snowmanEdit.creator);
+            setAttribute(snowmanEdit.attribute);
+        }
+    }, [snowmanEdit]);
 
     function handleSubmit(e){
         e.preventDefault();
