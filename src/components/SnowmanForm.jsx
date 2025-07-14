@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import styles from './SnowmanForm.module.css';
 
-function SnowmanForm({addSnowman}){
+function SnowmanForm({addSnowman, snowmanEdit}){
     const [name, setName] = useState('');
     const [height, setHeight] = useState(0);
     const [location, setLocation] = useState('');
