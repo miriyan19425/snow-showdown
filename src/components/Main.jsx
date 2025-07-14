@@ -6,6 +6,7 @@ function Main(){
 
     const [snowmanData, setSnowmanData] = useState({});
     const [dataToEdit, setDataToEdit] = useState({});
+    const [next, setNext] = useState(false);
 
     function getSnowmanData(d){
         setSnowmanData(d);
