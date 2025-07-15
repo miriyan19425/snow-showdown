@@ -22,7 +22,7 @@ function Snowball({snowman, onEdit, onNext}){
                 </article>
                 <div className="btn-container">
                   <button onClick={onEdit}>Edit</button>
-                  <button>Next</button>
+                  <button onClick={onNext}>Next</button>
                 </div>
               </li> 
             }  
