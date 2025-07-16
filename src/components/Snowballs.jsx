@@ -6,7 +6,7 @@ function Snowballs({snowman, nextSnowman, handleEdit, handleNext, next}){
     return (
         <div className={styles.snowballsContainer}>
            <Snowball snowman={snowman} onEdit={handleEdit} onNext={handleNext} />
-           <Snow />
+           <Snow nextSnowman={nextSnowman} next={next}/>
         </div>
     );
 }
