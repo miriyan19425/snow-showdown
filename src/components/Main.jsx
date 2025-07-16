@@ -13,6 +13,11 @@ function Main(){
         setSnowmanData(d);
     }
 
+    function getDataToEdit(){
+        setDataToEdit(snowmanData);
+        setSnowmanData({});
+    }
+
     return (
         <main className="hero">
            <SnowmanForm addSnowman={getSnowmanData}/>
