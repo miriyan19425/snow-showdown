@@ -1,6 +1,8 @@
 import {useState, useEffect} from 'react';
 import styles from './SnowmanForm.module.css';
 
+const attributes = ['Special Attribute', 'Carrot Nose', 'Hat/Pot', 'Branches for Arms', 'Button Eyes'];
+
 function SnowmanForm({addSnowman, snowmanEdit}){
     const [name, setName] = useState('');
     const [height, setHeight] = useState(0);
