@@ -18,6 +18,12 @@ function Main(){
         setSnowmanData({});
     }
 
+    function getDataToNext(){
+        setNext(prev => !prev);
+        setNextSnowman(snowmanData);
+        setSnowmanData({});
+    }
+
     return (
         <main className="hero">
            <SnowmanForm addSnowman={getSnowmanData}/>
