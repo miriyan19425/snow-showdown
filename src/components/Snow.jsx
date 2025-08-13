@@ -1,5 +1,3 @@
-import styles from './Snow.module.css';
-
 function Snow({nextSnowman, next}){
     return (
         <div className={styles.snow}>
