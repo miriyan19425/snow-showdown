@@ -1,3 +1,7 @@
+import {useState} from 'react';
+
+const specialAttributes = ["Special Attribute", "Carrot Nose", "Hat/Pot", "Branches for Arms", "Button Eyes"];
+
 function SnowmanForm(){
     return (
         <div className="snowman-container">
