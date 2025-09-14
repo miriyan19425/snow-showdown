@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import SnowmanForm from "./components/SnowmanForm";
+import SnowmanPreview from "./components/SnowmanPreview";
 
 function App() {
    return (
