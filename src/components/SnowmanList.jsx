@@ -1,4 +1,4 @@
-function Snow({nextSnowman, next}){
+function SnowmanList({nextSnowman, next}){
     return (
         <div className={styles.snow}>
           <h2>&#10053;Your Snowman&#10053;</h2>
@@ -21,4 +21,4 @@ function Snow({nextSnowman, next}){
     );
 }
 
-export default Snow;
+export default SnowmanList;
