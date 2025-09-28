@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 const specialAttributes = ["Special Attribute", "Carrot Nose", "Hat/Pot", "Branches for Arms", "Button Eyes"];
 
