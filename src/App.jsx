@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import SnowmanForm from "./components/SnowmanForm";
 import SnowmanPreview from "./components/SnowmanPreview";
+import SnowmanList from "./components/SnowmanList";
 
 function App() {
    return (
