@@ -1,6 +1,6 @@
 import styles from './Snowball.module.css';
 
-function Snowball({snowman, onEdit, onNext}){
+function SnowmanPreview({snowman, onEdit, onNext}){
     return (
         <div className={styles.snowball}>
           <h2>&#10053;Snowman Preview&#10053;</h2>
@@ -31,4 +31,4 @@ function Snowball({snowman, onEdit, onNext}){
     );
 }
 
-export default Snowball;
+export default SnowmanPreview;
