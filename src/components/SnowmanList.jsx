@@ -1,8 +1,8 @@
 function SnowmanList({nextSnowman, next}){
     return (
-        <div className={styles.snow}>
+        <div className="snow">
           <h2>&#10053;Your Snowman&#10053;</h2>
-          <ul className={styles.snowList}>
+          <ul className="snowList">
               {
               next &&
               <li>
