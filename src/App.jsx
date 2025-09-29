@@ -8,12 +8,9 @@ function App() {
       <div className="body">
          <h1>Snow Showdown</h1>
          <main id="hero">
-            <SnowmanForm />
+            <SnowmanForm makeSnowman={getSnowmanData}/>
             <div className="snowballs-container">
-               <div className="snowball">
-                  <h2>&#10053;Snowman Preview&#10053;</h2>
-                  <ul className="snowman-preview"></ul>
-               </div>
+               <SnowmanPreview snowmanMaking={snowmanData}/>
                <div className="snow">
                   <h2>&#10053;Your Snowman&#10053;</h2>
                   <ul className="snow-list"></ul>
