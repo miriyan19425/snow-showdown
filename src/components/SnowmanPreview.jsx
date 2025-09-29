@@ -1,10 +1,8 @@
-import styles from './Snowball.module.css';
-
 function SnowmanPreview({snowman, onEdit, onNext}){
     return (
-        <div className={styles.snowball}>
+        <div className="snowball">
           <h2>&#10053;Snowman Preview&#10053;</h2>
-          <ul className={styles.snowmanPreview}>
+          <ul className="snowman-preview">
             {(
                 snowman.name !== '' &&
                 snowman.height !== '' &&
