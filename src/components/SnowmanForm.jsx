@@ -1,8 +1,9 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 const specialAttributes = ["Special Attribute", "Carrot Nose", "Hat/Pot", "Branches for Arms", "Button Eyes"];
 
-function SnowmanForm(){
+function SnowmanForm({makeSnowman}){
+    const [name, setName] = useState('');
     return (
         <div className="snowman-container">
         <form className="snowman">
