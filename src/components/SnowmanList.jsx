@@ -2,7 +2,7 @@ function SnowmanList({nextSnowman, next}){
     return (
         <div className="snow">
           <h2>&#10053;Your Snowman&#10053;</h2>
-          <ul className="snowList">
+          <ul className="snow-list">
               {
               next &&
               <li>
@@ -12,7 +12,7 @@ function SnowmanList({nextSnowman, next}){
                   <p>Location: {nextSnowman.location}</p>
                   <p>Creator: {nextSnowman.creator}</p>
                   <p>Attribute: {nextSnowman.attribute}</p>
-                  <button>Send</button>
+                  <button className="send-btn">Send</button>
                 </article>
               </li>
             }
