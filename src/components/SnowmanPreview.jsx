@@ -19,8 +19,8 @@ function SnowmanPreview({snowmanMaking}){
                   <p>Attribute: {snowmanMaking.attribute}</p>
                 </article>
                 <div className="btn-container">
-                  <button onClick={onEdit}>Edit</button>
-                  <button onClick={onNext}>Next</button>
+                  <button className="edit-btn">Edit</button>
+                  <button className="next-btn">Next</button>
                 </div>
               </li> 
             }  
