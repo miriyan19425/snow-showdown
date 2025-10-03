@@ -7,6 +7,7 @@ function SnowmanForm({makeSnowman}){
     const [height, setHeight] = useState(0);
     const [location, setLocation] = useState('');
     const [creator, setCreator] = useState('');
+    const [attribute, setAttribute] = useState("Special Attribute");
     return (
         <div className="snowman-container">
         <form className="snowman">
