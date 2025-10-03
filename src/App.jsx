@@ -5,6 +5,9 @@ import SnowmanList from "./components/SnowmanList";
 
 function App() {
    const [snowmanData, setSnowmanData] = useState({name: '', height: 0, location: '', creator: '', attribute: 'Special Attribute'});
+
+   function getSnowmanData(d) { setSnowmanData(d); }
+   
    return (
       <div className="body">
          <h1>Snow Showdown</h1>
