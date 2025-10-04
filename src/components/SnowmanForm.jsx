@@ -8,6 +8,11 @@ function SnowmanForm({makeSnowman}){
     const [location, setLocation] = useState('');
     const [creator, setCreator] = useState('');
     const [attribute, setAttribute] = useState("Special Attribute");
+
+    function handleSubmit(e){
+        e.preventDefault();
+    }
+    
     return (
         <div className="snowman-container">
         <form className="snowman">
