@@ -2,14 +2,15 @@ function SnowmanPreview({snowmanMaking}){
     return (
         <div className="snowball">
           <h2>&#10053;Snowman Preview&#10053;</h2>
-          <ul className="snowman-preview">
+          
             {(
                 snowmanMaking.name !== '' &&
                 snowmanMaking.height !== '' &&
                 snowmanMaking.location !== '' &&
                 snowmanMaking.creator !== '' &&
                 snowmanMaking.attribute !== undefined
-              )&&
+              )||
+                <ul className="snowman-preview">
               <li>
                 <article>
                   <p>Name: {snowmanMaking.name}</p>
@@ -23,8 +24,9 @@ function SnowmanPreview({snowmanMaking}){
                   <button className="next-btn">Next</button>
                 </div>
               </li> 
+              </ul>      
             }  
-          </ul>
+          
         </div>
     );
 }
