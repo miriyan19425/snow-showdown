@@ -20,14 +20,10 @@ function SnowmanForm({makeSnowman}){
           <input type="number" id="snowman-height" placeholder="Height (in centimeters)" />
           <input type="text" id="location" placeholder="Location" />
           <input type="text" id="creator-name" placeholder="Creator" />
-          <select id="special-attribute" placeholder="Special Attribute">
-            <option value="" disabled selected>Special Attribute</option>
-            <option value="Carrot Nose">Carrot Nose</option>
-            <option value="Hat/Pot">Hat/Pot</option>
-            <option value="Branches for Arms">Branches for Arms</option>
-            <option value="Button Eyes">Button Eyes</option>
+          <select value={attribute} onChange={(e) => setAttribute(e.target.value)}>
+              {specialAttributes.map( (attr, ind) => <option key={ind} value={attr} disabled={ind === 0}>{attr}</option> )}    
           </select>
-          <button type="submit" className="add-btn">Add</button>
+          <button className="add-btn">Add</button>
         </form>
       </div>
     );
