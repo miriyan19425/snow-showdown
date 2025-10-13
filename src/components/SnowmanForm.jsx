@@ -4,7 +4,7 @@ const specialAttributes = ["Special Attribute", "Carrot Nose", "Hat/Pot", "Branc
 
 function SnowmanForm({makeSnowman}){
     const [name, setName] = useState('');
-    const [height, setHeight] = useState(0);
+    const [height, setHeight] = useState('');
     const [location, setLocation] = useState('');
     const [creator, setCreator] = useState('');
     const [attribute, setAttribute] = useState("Special Attribute");
