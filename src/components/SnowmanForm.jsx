@@ -11,6 +11,8 @@ function SnowmanForm({makeSnowman}){
 
     function handleSubmit(e){
         e.preventDefault();
+
+        if (!name || !height || !location || !creator || attribute === "Special Attribute") return;
     }
     
     return (
