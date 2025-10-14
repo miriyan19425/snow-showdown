@@ -1,4 +1,4 @@
-function SnowmanPreview({snowmanMaking}){
+function SnowmanPreview({snowmanMaking, onNext}){
     return (
         <div className="snowball">
             <h2>&#10053;Snowman Preview&#10053;</h2>
