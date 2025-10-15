@@ -21,7 +21,7 @@ function SnowmanPreview({snowmanMaking, onNext}){
                     </article>
                     <div className="btn-container">
                         <button className="edit-btn">Edit</button>
-                        <button className="next-btn">Next</button>
+                        <button className="next-btn" onClick={onNext}>Next</button>
                     </div>
                 </li> 
             </ul>      
