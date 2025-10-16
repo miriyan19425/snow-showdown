@@ -15,6 +15,8 @@ function SnowmanForm({makeSnowman}){
         if (!name || !height || !location || !creator || attribute === "Special Attribute") return;
 
         const data = {name, height, location, creator, attribute};
+
+         makeSnowman(data);
     }
     
     return (
