@@ -8,6 +8,8 @@ function App() {
    const [next, setNext] = useState(false);
 
    function getSnowmanData(d) { setSnowmanData(d); }
+
+   function getDataToNext(){}
    
    return (
       <div className="body">
