@@ -17,6 +17,8 @@ function SnowmanForm({makeSnowman}){
         const data = {name, height, location, creator, attribute};
 
          makeSnowman(data);
+
+        setName("");
     }
     
     return (
