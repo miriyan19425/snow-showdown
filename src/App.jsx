@@ -5,6 +5,7 @@ import SnowmanList from "./components/SnowmanList";
 
 function App() {
    const [snowmanData, setSnowmanData] = useState({name: '', height: '', location: '', creator: '', attribute: 'Special Attribute'});
+   const [dataToEdit, setDataToEdit] = useState({});
    const [next, setNext] = useState(false);
 
    function getSnowmanData(d) { setSnowmanData(d); }
