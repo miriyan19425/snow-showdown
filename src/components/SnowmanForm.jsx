@@ -21,6 +21,7 @@ function SnowmanForm({makeSnowman}){
         setName('');
         setHeight('');
         setLocation('');
+        setCreator('');
     }
     
     return (
