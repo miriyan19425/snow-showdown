@@ -10,7 +10,9 @@ function App() {
 
    function getSnowmanData(d) { setSnowmanData(d); }
 
-   function getDataToNext(){}
+   function getDataToNext(){
+      setNext(prev => !prev);
+   }
    
    return (
       <div className="body">
