@@ -7,11 +7,13 @@ function App() {
    const [snowmanData, setSnowmanData] = useState({name: '', height: '', location: '', creator: '', attribute: 'Special Attribute'});
    const [dataToEdit, setDataToEdit] = useState({});
    const [next, setNext] = useState(false);
+   const [nextSnowman, setNextSnowman] = useState({});
 
    function getSnowmanData(d) { setSnowmanData(d); }
 
    function getDataToNext(){
       setNext(prev => !prev);
+      setNextSnowman(snowmanData);
    }
    
    return (
