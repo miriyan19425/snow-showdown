@@ -14,6 +14,7 @@ function App() {
    function getDataToNext(){
       setNext(prev => !prev);
       setNextSnowman(snowmanData);
+      setSnowmanData({name: '', height: '', location: '', creator: '', attribute: 'Special Attribute'});
    }
    
    return (
