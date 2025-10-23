@@ -16,6 +16,8 @@ function App() {
       setNextSnowman(snowmanData);
       setSnowmanData({name: '', height: '', location: '', creator: '', attribute: 'Special Attribute'});
    }
+
+   function getDataToEdit(){}
    
    return (
       <div className="body">
