@@ -9,7 +9,7 @@ function SnowmanForm({makeSnowman}){
     const [creator, setCreator] = useState('');
     const [attribute, setAttribute] = useState("Special Attribute");
 
-    useEffect();
+    useEffect(() => {}, []);
 
     function handleSubmit(e){
         e.preventDefault();
