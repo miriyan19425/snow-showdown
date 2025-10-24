@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 
 const specialAttributes = ["Special Attribute", "Carrot Nose", "Hat/Pot", "Branches for Arms", "Button Eyes"];
 
-function SnowmanForm({makeSnowman}){
+function SnowmanForm({makeSnowman, snowmanEdit}){
     const [name, setName] = useState('');
     const [height, setHeight] = useState('');
     const [location, setLocation] = useState('');
