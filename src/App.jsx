@@ -26,7 +26,7 @@ function App() {
       <div className="body">
          <h1>Snow Showdown</h1>
          <main id="hero">
-            <SnowmanForm makeSnowman={getSnowmanData}/>
+            <SnowmanForm makeSnowman={getSnowmanData} snowmanEdit={dataToEdit}/>
             <div className="snowballs-container">
                <SnowmanPreview snowmanMaking={snowmanData}/>
                <SnowmanList nextSnowman={nextSnowman} next={next} />
