@@ -19,6 +19,7 @@ function App() {
 
    function getDataToEdit(){
       setDataToEdit(snowmanData);
+      setSnowmanData({});
    }
    
    return (
