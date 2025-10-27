@@ -11,7 +11,7 @@ function SnowmanForm({makeSnowman, snowmanEdit}){
 
     useEffect(() => {
         if (snowmanEdit) {
-
+            setName(snowmanEdit.name);
         }
     }, [snowmanEdit]);
 
