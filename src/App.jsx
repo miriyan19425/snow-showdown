@@ -28,7 +28,7 @@ function App() {
          <main id="hero">
             <SnowmanForm makeSnowman={getSnowmanData} snowmanEdit={dataToEdit}/>
             <div className="snowballs-container">
-               <SnowmanPreview snowmanMaking={snowmanData}/>
+               <SnowmanPreview snowmanMaking={snowmanData} onEdit={getDataToEdit} />
                <SnowmanList nextSnowman={nextSnowman} next={next} />
             </div>
          </main>
