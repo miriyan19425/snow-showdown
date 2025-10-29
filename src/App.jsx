@@ -19,7 +19,7 @@ function App() {
 
    function getDataToEdit(){
       setDataToEdit(snowmanData);
-      setSnowmanData({});
+      setSnowmanData({name: '', height: '', location: '', creator: '', attribute: 'Special Attribute'});
    }
    
    return (
