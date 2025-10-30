@@ -13,6 +13,7 @@ function SnowmanForm({makeSnowman, snowmanEdit}){
         if (snowmanEdit) {
             setName(snowmanEdit.name);
             setHeight(snowmanEdit.height);
+            setLocation(snowmanEdit.location);
         }
     }, [snowmanEdit]);
 
