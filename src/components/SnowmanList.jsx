@@ -12,7 +12,7 @@ function SnowmanList({nextSnowman, next}){
                             <p>Location: {nextSnowman.location}</p>
                             <p>Creator: {nextSnowman.creator}</p>
                             <p>Attribute: {nextSnowman.attribute}</p>
-                            <button className="send-btn">Send</button>
+                            <button className="send-btn" onClick={onSend}>Send</button>
                         </article>
                     </li>
                 </ul>
