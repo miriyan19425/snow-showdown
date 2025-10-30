@@ -1,4 +1,4 @@
-function SnowmanList({nextSnowman, next}){
+function SnowmanList({nextSnowman, next, onSend}){
     return (
         <div className="snow">
             <h2>&#10053;Your Snowman&#10053;</h2>
