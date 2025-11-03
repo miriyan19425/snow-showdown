@@ -2,6 +2,7 @@ import {useState} from 'react';
 import SnowmanForm from "./components/SnowmanForm";
 import SnowmanPreview from "./components/SnowmanPreview";
 import SnowmanList from "./components/SnowmanList";
+import SnowmanSent from "./components/SnowmanSent";
 
 function App() {
    const [snowmanData, setSnowmanData] = useState({name: '', height: '', location: '', creator: '', attribute: 'Special Attribute'});
