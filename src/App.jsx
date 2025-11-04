@@ -9,6 +9,7 @@ function App() {
    const [dataToEdit, setDataToEdit] = useState({});
    const [next, setNext] = useState(false);
    const [nextSnowman, setNextSnowman] = useState({});
+   const [sending, setSending] = useState(false);
 
    function getSnowmanData(d) { setSnowmanData(d); }
 
