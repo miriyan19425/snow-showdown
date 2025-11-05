@@ -27,14 +27,12 @@ function App() {
    return (
       <div className="body">
          <h1>Snow Showdown</h1>
-         <main id="hero">
-            <SnowmanForm makeSnowman={getSnowmanData} snowmanEdit={dataToEdit}/>
-            <div className="snowballs-container">
-               <SnowmanPreview snowmanMaking={snowmanData} onEdit={getDataToEdit} />
-               <SnowmanList nextSnowman={nextSnowman} next={next} />
-            </div>
-         </main>
-         <img id="back-img" src="./assets/back-Snowman.png" alt="" hidden />
+         {
+            sending ? <SnowmanSent onBack={() => setSending(prev => !prev)}/>  :
+            (<main id="hero">
+               
+            </main>)
+         }
       </div>
    );
 }
