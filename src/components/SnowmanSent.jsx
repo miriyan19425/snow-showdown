@@ -1,4 +1,4 @@
-function SnowmanSent(){
+function SnowmanSent({onBack}){
   return(
     <>
         <img id="back-img" src="./src/assets/back-Snowman.png" alt="" />
