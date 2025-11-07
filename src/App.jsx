@@ -31,6 +31,9 @@ function App() {
             sending ? <SnowmanSent onBack={() => setSending(prev => !prev)}/>  :
             (<main id="hero">
                <SnowmanForm makeSnowman={getSnowmanData} snowmanEdit={dataToEdit}/> 
+               <div className="snowballs-container">
+               
+               </div>
             </main>)
          }
       </div>
