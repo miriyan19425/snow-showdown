@@ -32,7 +32,7 @@ function App() {
             (<main id="hero">
                <SnowmanForm makeSnowman={getSnowmanData} snowmanEdit={dataToEdit}/> 
                <div className="snowballs-container">
-               
+                  <SnowmanPreview snowmanMaking={snowmanData} onNext={getDataToNext} onEdit={getDataToEdit} />
                </div>
             </main>)
          }
