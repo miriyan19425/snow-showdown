@@ -7,7 +7,7 @@ function SnowmanPreview({snowmanMaking, onNext, onEdit}){
                 snowmanMaking.height !== '' &&
                 snowmanMaking.location !== '' &&
                 snowmanMaking.creator !== '' &&
-                snowmanMaking.attribute !== undefined
+                snowmanMaking.attribute !== 'Special Attribute'
             ) 
             ||
             <ul className="snowman-preview">
